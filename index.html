@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio de Pilotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pilot">
+            <h2>Lewis Hamilton</h2>
+            <div class="status" id="statusH">Off</div>
+            <div class="action" id="actionH">Box</div>
+            <button class="toggleBtn" id="buttonH">Radio</button>
+            <div class="action">
+                <button class="actionBtn" id="pcH">Pit Confirm</button>
+            </div>
+        </div>
+        <div class="pilot">
+            <h2>George Russell</h2>
+            <div class="status" id="statusR">Off</div>
+            <div class="action" id="actionR">Box</div>
+            <button class="toggleBtn" id="buttonR">Radio</button>
+            <div class="action">
+                <button class="actionBtn" id="pcR">Pit Confirm</button>
+            </div>
+        </div>
+        <div class="fia">
+            <h2>FIA</h2>
+            <div class="status" id="statusF">Off</div>
+            <button class="toggleBtn" id="buttonF">Radio</button>
+        </div>
+        <div class="empty-space"></div>
+    </div>
+
+    <div class="race">
+        <button class="flagBtn yellow">Yellow Flag</button>
+        <button class="flagBtn red">Red Flag</button>
+        <button class="flagBtn green">Green Flag</button>
+        <button class="flagBtn black-white">Black & White Flag</button>
+    </div>
+
+    <div class="extra-buttons">
+        <button class="extraBtn sc">SC</button>
+        <button class="extraBtn vsc">VSC</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
